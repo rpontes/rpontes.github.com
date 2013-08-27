@@ -1,7 +1,26 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# General Jekyll Config
+pygments: true
+url: http://ricardopont.es
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore]
 
-auto: true # automatically update your jekyll
-server: true # runs a local server
-paginate: 10 # pagination basted on number of posts
-exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
+# Theme customization - please change from the defaults!
+theme:
+  # Color for top bar, links, etc
+  highlight_color: '#494158'
 
+  # Profile links on the left sidebar, leave blank to ignore
+  social:
+    github: rpontes
+    twitter: ricardopnts
+    # hacker_news: swanson
+
+  # "Hi, I'm _______"
+  name: Ricardo Pontes
+  tagline: "weak opinions, strongly held"
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: UA-xxxx-x
+
+  # Toggle "Postings are my own" disclaimer in footer
+  show_disclaimer: true
